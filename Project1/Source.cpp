@@ -14,8 +14,7 @@ BOOL fFreeDLL;
 
 hinstDLL = LoadLibrary("enumProcessDll.dll");
 
-    Enumproc = (DLLPROC) GetProcAddress(hinstDLL, "Enumproc");
-
+Enumproc = (DLLPROC) GetProcAddress(hinstDLL, "?Enumproc@@YAHHH@Z");
 
 	Enumproc (200 , 20 );
 
